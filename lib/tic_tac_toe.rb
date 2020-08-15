@@ -78,6 +78,7 @@ def play(board)
   until over?(board) do
     turn(board)
   end
+<<<<<<< HEAD
   
   if won?(board)
     winner = winner(board)
@@ -87,6 +88,8 @@ def play(board)
   if draw?(board)
     puts "Cat's Game!"
   end
+=======
+>>>>>>> bcf618156f7c9ce868b113b60ac5be20d78e4479
 end
   
 def won?(board)
